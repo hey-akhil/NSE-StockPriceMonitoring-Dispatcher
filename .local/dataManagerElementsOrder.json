@@ -1,0 +1,85 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MailId&Sequence_1",
+        "Config&Sequence_1",
+        "ConfigFile&Sequence_1",
+        "dt_StockData&Sequence_1",
+        "ExceptionMessage&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SPM_InitializeAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Assets&Sequence_13",
+        "AssetValue&Sequence_14",
+        "dt_SettingsAndConstants&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "out_Config",
+        "in_ConfigSheets"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SPM_Dispatcher.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Gainers&Sequence_11",
+        "dt_Loosers&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ExceptionMessage",
+        "in_MailId",
+        "out_dt_StockData",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SPM_ProcessStartMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UserEmails&Sequence_2",
+        "MailPassword&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProcessEncounterError.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Passwords&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ExceptionMessage",
+        "in_Config",
+        "in_MailId"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
